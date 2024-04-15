@@ -1,20 +1,20 @@
 #meta {
     font-size: 50px;
-    line-height: 50px;
+    line-height: 50px; /* ajusto el espacio entre líneas para centrar verticalmente */
     background-color: rgb(245, 190, 11);
-    text-align: center; /* Centrar el texto horizontalmente */
-    padding: 10px; /* Añadir espacio alrededor del texto */
+    text-align: center;/* centro el texto */
+    padding: 10px; /* pongo espacio alrededor del texto */
 }
 #animal {
     font-size: 100px;
     font-weight: bolder;
     padding: 20px;
     background-color: rgb(211, 226, 5);
-    text-align: center; /* Centrar el texto horizontalmente */
+    text-align: center; /* centro el texto horizontalmente */
 }
 #logo {
     width: 70px;
-    height: auto; /* Esto mantendrá la proporción de la imagen */
+    height: auto; /* mantiene la proporción de la imagen */
 }
 #intro {
     background-color: #e0e0e0;
@@ -29,24 +29,24 @@
     padding: 50px;
   }
 #carouselExample {
-    margin-top: 50px; /* Ajustar el margen superior */
-    text-align: center; /* Centrar el carrusel horizontalmente */
+    margin-top: 50px; /* aqui puedo ajustar el margen superior */
+    text-align: center; /* centro el carrusel horizontalmente */
 }
 .carousel-img {
-    width: 100%; /* Hace que las imágenes ocupen todo el ancho del carrusel */
-    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
-    object-fit: cover; /* Ajustar el tamaño de la imagen sin deformarla */
+    width: 100%; /* hago que las imagenes ocupen todo el ancho del carrusel */
+    height: auto; /* ajusto la altura automáticamente para mantener la proporción */
+    object-fit: cover; /* ajusto el tamaño de la imagen sin deformarla */
 }
 .carousel-caption h5,
 .carousel-caption p {
-    color: #fdfdfd; /* Color rojo para los títulos y descripciones */
-    text-align: left; /* Alinear el texto a la izquierda dentro de la descripción */
+    color: #fdfdfd; /* cambio color para los títulos y descripciones */
+    text-align: left; 
 }
 .navbar {
-    background-color: #ff7b00; /* Cambiar el color de fondo del navbar */
+    background-color: #ff7b00;
 }
 
 .footer {
-    background-color: #ff7b00; /* Cambiar el color de fondo del footer */
-    color: white; /* Cambiar el color del texto del footer a blanco */
+    background-color: #ff7b00; 
+    color: white; 
 }
