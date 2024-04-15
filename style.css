@@ -28,6 +28,14 @@
     background-color: #d0d0d0;
     padding: 50px;
   }
+.carousel-control-prev-icon {
+    background-image: url('IMG/logo.webp');
+    background-size: cover;
+ }
+.carousel-control-next-icon {
+    background-image: url('IMG/logo.webp');
+    background-size: cover;
+  }
 #carouselExample {
     margin-top: 50px; /* aqui puedo ajustar el margen superior */
     text-align: center; /* centro el carrusel horizontalmente */
