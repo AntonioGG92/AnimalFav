@@ -29,13 +29,16 @@
     padding: 50px;
   }
 .carousel-control-prev-icon {
-    background-image: url('IMG/logo.webp');
+    background-image: url('IMG/logo.webp'); /* pongo logo en control del carousel */
     background-size: cover;
  }
 .carousel-control-next-icon {
-    background-image: url('IMG/logo.webp');
+    background-image: url('IMG/logo.webp'); /* pongo logo en control del carousel */
     background-size: cover;
   }
+.carousel-item {
+    color: black;
+}
 #carouselExample {
     margin-top: 50px; /* aqui puedo ajustar el margen superior */
     text-align: center; /* centro el carrusel horizontalmente */
@@ -55,8 +58,8 @@
 }
 
 .footer {
-    background-color: #ff7b00; 
-    color: white; 
+    background-color: #ff7b00; /* cambio color para los títulos y descripciones */
+    color: white;
     font-size: 20px;
     text-align: center; 
     padding: 20px;
