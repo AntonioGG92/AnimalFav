@@ -49,4 +49,8 @@
 .footer {
     background-color: #ff7b00; 
     color: white; 
+    font-size: 20px;
+    text-align: center; 
+    padding: 20px;
+    width: 100%;
 }
