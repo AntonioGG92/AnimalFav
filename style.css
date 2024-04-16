@@ -1,10 +1,14 @@
 #meta {
     font-size: 50px;
     line-height: 50px; /* ajusto el espacio entre líneas para centrar verticalmente */
-    background-color: rgb(245, 190, 11);
+    background-color: rgb(250, 234, 6);
     text-align: center;/* centro el texto */
     padding: 10px; /* pongo espacio alrededor del texto */
 }
+body {
+    background-color: rgb(177, 126, 78);
+  }
+  
 #animal {
     font-size: 100px;
     font-weight: bolder;
@@ -38,6 +42,7 @@
   }
 .carousel-item {
     color: black;
+    background-color: rgb(177, 126, 78); /* Cambia el color de fondo a negro */
 }
 #carouselExample {
     margin-top: 50px; /* aqui puedo ajustar el margen superior */
@@ -50,16 +55,29 @@
 }
 .carousel-caption h5,
 .carousel-caption p {
-    color: #fdfdfd; /* cambio color para los títulos y descripciones */
+    color: #000000; /* cambio color para los títulos y descripciones */
     text-align: left; 
 }
-.navbar {
-    background-color: #ff7b00;
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 0;
 }
+.carousel:hover .carousel-control-prev,
+.carousel:hover .carousel-control-next {
+  opacity: 1;
+}
+.carousel-indicators {
+  display: none;
+}
+.navbar {
+    background-color: #fce308;
+}
+.imagen-personalizada {
+    max-width: 100%;
+    height: auto; 
+  }
 
 .footer {
-    background-color: #ff7b00; /* cambio color para los títulos y descripciones */
-    color: white;
     font-size: 20px;
     text-align: center; 
     padding: 20px;
